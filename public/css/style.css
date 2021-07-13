@@ -1,0 +1,700 @@
+.wrapper{
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #1C1C1C;
+}
+
+.title{
+position: absolute;
+width: 442px;
+height: 50px;
+left: 499px;
+top: 94px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 50px;
+
+text-align: center;
+color: #489246;
+}
+
+.subtitle{
+	position: absolute;
+width: 143px;
+height: 58px;
+left: 639px;
+top: 176px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 30px;
+text-align: center;
+
+color: #489246;
+}
+
+.logouser{
+	position: absolute;
+width: 77px;
+height: 78px;
+left: 1298px;
+top: 154px;
+
+background: url(../images/profile.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.nameuser{
+	position: absolute;
+width: 93px;
+height: 23px;
+left: 1205px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+.auth-authform{
+	position: absolute;
+
+left: 531px;
+top: 391px;
+}
+
+::-webkit-input-placeholder {
+text-align:center;
+}
+
+.auth-inputtext{
+display: block;
+width: 380px;
+height: 41px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.bloke{
+	display: block;
+}
+.button{
+width: 380px;
+height: 41px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.auth-button{
+width: 380px;
+height: 41px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.content{
+	position: absolute;
+width: 806px;
+height: 680px;
+left: 327px;
+top: 245px;
+
+
+background-color: white;
+border: 4px solid #489246;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.genres{
+position: absolute;
+left: 56px;
+top: 251px;
+
+}
+
+a.button{
+	height: 22px;
+	width: 150px;
+	padding: 5px 15px; 
+	margin: 5px 15px; 
+    display: inline-block;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.content{
+overflow: auto;
+}
+.block.track{
+margin: 10px;
+position: relative;
+}
+
+.authorname{
+position: absolute;
+left: 110px;
+top: 20px;
+}
+
+.trackname{
+position: absolute;
+left: 110px;
+top: 40px;
+}
+
+.plustrack{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 630px;
+top: 40px;
+
+background: url(../images/plus.jpg)  100% 100% no-repeat;
+    background-size: cover;
+}
+
+.liked{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 660px;
+top: 40px;
+
+background: url(../images/liked.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+}
+
+.disliked{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 690px;
+top: 40px;
+
+background: url(../images/disliked.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+}
+
+.like{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 660px;
+top: 40px;
+
+background: url(../images/like.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+}
+
+.dislike{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 690px;
+top: 40px;
+
+background: url(../images/dislike.jpg)  100% 100% no-repeat;
+    background-size: cover;
+}
+
+.mini.content{
+	position: absolute;
+width: 403px;
+height: 680px;
+left: 327px;
+top: 245px;
+background-color: white;
+border: 4px solid #489246;
+box-sizing: border-box;
+border-radius: 20px;
+display: none;
+padding-top: 35px
+}
+
+.mini.content button{
+position: absolute;
+width: 27px;
+height: 24px;
+top:10px;
+right: 10px;
+	background: url(../images/close.png)  100% 100% no-repeat;
+	    background-size: cover;
+	}
+
+
+.delete{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 630px;
+top: 40px;
+
+background: url(../images/remove.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+}	
+
+.playlists{
+	position: absolute;
+width: 143px;
+height: 58px;
+left: 639px;
+top: 176px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 30px;
+text-align: center;
+
+color: #489246;
+}
+
+	
+
+.delete-favorite{
+position: absolute;
+width: 27px;
+height: 24px;
+left: 690px;
+bottom: 60px;
+
+background: url(../images/remove.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+}	
+
+.author-add-music{
+position: absolute;
+width: 404px;
+height: 57px;
+left: 998px;
+top: 43px;
+
+background: #489246;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.admin-add-music{
+	position: absolute;
+width: 269px;
+height: 57px;
+left: 358px;
+top: 210px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.admin-roles{
+	position: absolute;
+width: 269px;
+height: 57px;
+left: 809px;
+top: 210px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.admin-panel-inputtrackauthor{
+	position: absolute;
+width: 265px;
+height: 51px;
+left: 364px;
+top: 429px;
+
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.admin-panel-inputtrackname{
+position: absolute;
+width: 265px;
+height: 51px;
+left: 364px;
+top: 561px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+.admin-genere-select{
+	position: absolute;
+	width: 265px;
+	height: 51px;
+	left: 364px;
+	top: 691px;
+	
+	background: #C4C4C4;
+	border-radius: 10px;
+	}
+.admin-panel-add-track{
+position: absolute;
+width: 360px;
+height: 50px;
+left: 540px;
+top: 860px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.admin-panel-inputtrackfile{
+position: absolute;
+width: 231px;
+height: 35px;
+left: 828px;
+top: 411px;
+}
+.admin-panel-inputtrackfilem{
+	position: absolute;
+	width: 231px;
+	height: 35px;
+	left: 828px;
+	top: 650px;
+	}
+.admin-panel-file-loading{
+	position: absolute;
+width: 196px;
+height: 166px;
+left: 846px;
+top: 446px;
+
+background: url(../images/file-loading.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+border: 4px solid #489246;
+box-sizing: border-box;
+border-radius: 58px;
+}
+.admin-panel-file-loadingm{
+	position: absolute;
+width: 196px;
+height: 166px;
+left: 846px;
+top: 680px;
+
+background: url(../images/file-loading.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+border: 4px solid #489246;
+box-sizing: border-box;
+border-radius: 58px;
+}
+
+.admin-panel-add-music{
+position: absolute;
+width: 404px;
+height: 57px;
+left: 518px;
+top: 214px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.author-panel-inputtrackauthor{
+	position: absolute;
+width: 265px;
+height: 51px;
+left: 364px;
+top: 429px;
+
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.author-panel-inputtrackname{
+position: absolute;
+width: 265px;
+height: 51px;
+left: 364px;
+top: 561px;
+
+background: #C4C4C4;
+border-radius: 10px;
+}
+
+.author-panel-add-track{
+position: absolute;
+width: 360px;
+height: 50px;
+left: 540px;
+top: 827px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.author-panel-inputtrackfile{
+position: absolute;
+width: 231px;
+height: 35px;
+left: 828px;
+top: 411px;
+}
+
+.author-panel-file-loading{
+	position: absolute;
+width: 196px;
+height: 166px;
+left: 846px;
+top: 446px;
+
+background: url(../images/file-loading.jpg)  100% 100% no-repeat; 
+    background-size: cover;
+border: 4px solid #489246;
+box-sizing: border-box;
+border-radius: 58px;
+}
+
+.author-panel-select-genre {
+	position: absolute;
+width: 269px;
+height: 57px;
+left: 358px;
+top: 310px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.author-panel-add-music{
+position: absolute;
+width: 404px;
+height: 57px;
+left: 518px;
+top: 214px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.admin-roles-add-roles{
+position: absolute;
+width: 404px;
+height: 57px;
+left: 516px;
+top: 218px;
+
+background: #489246;
+border-radius: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.admin-roles-select-user{
+	position: absolute;
+width: 583px;
+height: 82px;
+left: 428px;
+top: 448px;
+
+background: #E4E4E4;
+border: 7px solid #489246;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.admin-roles-add-role{
+	position: absolute;
+width: 371px;
+height: 55px;
+left: 311px;
+top: 703px;
+
+background: #489246;
+border-radius: 10px;
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.admin-roles-delete-role{
+	position: absolute;
+width: 371px;
+height: 55px;
+left: 808px;
+top: 703px;
+
+background: #489246;
+border-radius: 10px;
+
+font-family: Syncopate;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+height: 30px;
+width: 600px;
+}
+.audidiv{
+	position: absolute;
+	right: 45px;
+	top: 73px;
+
+	
+}
+.comments{
+	position: absolute;
+	width: 27px;
+	height: 24px;
+	left: 600px;
+	top: 40px;
+	
+	background: url(../images/arrow.jpg)  100% 100% no-repeat;
+		background-size: cover;
+	}
+	
+	
+	.block-comments{
+	  overflow: auto;
+	  display: none;
+	  padding:10px;
+	
+	}
+	
+	.block-comments span{
+	  color: white;
+	  background-color: #489246;
+	  border-radius: 12px;
+	}
